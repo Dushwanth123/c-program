@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, first = 0, second = 1, next;
+
+    // Read the number of terms
+    cout << "Enter the number of terms: ";
+    cin >> n;
+
+    cout << "Fibonacci Series: ";
+
+    // Print the Fibonacci series
+    for (int i = 1; i <= n; i++) {
+        cout << first << " ";
+
+        next = first + second;
+        first = second;
+        second = next;
+    }
+
+    cout << endl;
+
+    return 0;
+}
