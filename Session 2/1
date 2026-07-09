@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Declaring variables
+    int num = 25;
+    float f = 12.5f;
+    double d = 123.456789;
+    char ch = 'A';
+    bool flag = true;
+
+    // Displaying values and sizes
+    cout << "Data Type\tValue\t\tSize (bytes)" << endl;
+    cout << "------------------------------------------" << endl;
+
+    cout << "int\t\t" << num << "\t\t" << sizeof(num) << endl;
+    cout << "float\t\t" << f << "\t\t" << sizeof(f) << endl;
+    cout << "double\t\t" << d << "\t" << sizeof(d) << endl;
+    cout << "char\t\t" << ch << "\t\t" << sizeof(ch) << endl;
+    cout << "bool\t\t" << flag << "\t\t" << sizeof(flag) << endl;
+
+    return 0;
+}
