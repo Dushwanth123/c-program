@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Declaring variables
+    int num = 2000000000;              // Maximum safe value within int range
+    long long largeNum = 987654321012345LL; // Very large number
+
+    // Displaying values
+    cout << "Integer value (int): " << num << endl;
+    cout << "Size of int: " << sizeof(num) << " bytes" << endl;
+
+    cout << "Long long value: " << largeNum << endl;
+    cout << "Size of long long: " << sizeof(largeNum) << " bytes" << endl;
+
+    return 0;
+}
